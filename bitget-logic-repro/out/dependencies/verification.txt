@@ -1,0 +1,13 @@
+Anvil 1.5.1-v1.5.1, solc 0.8.28+commit.7893614a
+Default local mode:
+PASS 11 captured runtimes, archived deployment inputs and Safe source mirrors checked
+PASS solc rebuild of 31 verified sources matches EntryPoint creation input and embeds SenderCreator creation bytes
+PASS original deterministic factory deploys exact EntryPoint and SenderCreator at their Base addresses
+PASS original Admin initcode deploys exact runtime at the Base address
+PASS original Logic initcode deploys exact runtime at the Base address
+PASS the four exact runtimes link through their original getter addresses
+PASS original Safe proxy, singleton and fallback handler initcodes produce exact runtimes
+
+Read-only fork mode, Base block 59828121:
+PASS 11 captured runtimes, archived deployment inputs and Safe source mirrors checked
+PASS fixed-block Base fork: seven exact runtime images, four getter links and selected Admin/Safe configuration; no transactions

@@ -1,0 +1,63 @@
+{
+  "snapshot": {
+    "number": 59828121,
+    "hash": "0x3ec6b825d98bff535499513f421ab8081f0506ddd3792ff59fbfac1930eb4b2b",
+    "stateRoot": "0xe28c392518ab1b10879876742d654688ce159937d9cd8be3a31b33192fc86a20"
+  },
+  "adminSlot1": "0x000000000000000000000000dc6d85360827fcdb68d7db579bb7dfb6c8ec1c36",
+  "contracts": {
+    "PayoutSafeProxy": {
+      "address": "0xdc6d85360827fcdb68d7db579bb7dfb6c8ec1c36",
+      "blockNumber": 59828121,
+      "slot0": "0x000000000000000000000000fb1bffc9d739b8d520daf37df666da4c687191ea",
+      "runtime": {
+        "bytes": 171,
+        "sha256": "5b8bff324e02136edb0775bd77aa0fe773c1e23092305fe63f50a9e92f5b8faf"
+      }
+    },
+    "PayoutSafeSingleton": {
+      "address": "0xfb1bffc9d739b8d520daf37df666da4c687191ea",
+      "blockNumber": 59828121,
+      "version": "1.3.0",
+      "runtime": {
+        "bytes": 23800,
+        "sha256": "382183ad763afbcc7f7728a6dbd6fd51b46843b0e1ebdc33a0def6e7939f4aa2"
+      }
+    },
+    "EntryPointFactory": {
+      "address": "0x4e59b44847b379578588920ca78fbf26c0b4956c",
+      "blockNumber": 59828121,
+      "runtime": {
+        "bytes": 69,
+        "sha256": "e0af82ad2e5188285db8ba0b2ae054d13f0fd4fe325c48c7f2dace48454404b9"
+      }
+    },
+    "BitgetOuterFactory": {
+      "address": "0xd7061474ed50293dba338eb9a3781a97cbc1b34e",
+      "blockNumbers": [
+        44201836,
+        44201837
+      ],
+      "runtime": {
+        "bytes": 4659,
+        "sha256": "fa19b100f1a4cc2448416d4ce8f504e324083b0a9271258ccc966f885b8ef936"
+      }
+    },
+    "AdminImmediateCreator": {
+      "address": "0x291034d4a73bbfced19544d3104a99b00d521609",
+      "blockNumber": 44201836,
+      "runtime": {
+        "bytes": 692,
+        "sha256": "f3038035d3be9738b2e834eb2f6fa3b9cf584392cb5503bb69a914625520892e"
+      }
+    },
+    "LogicImmediateCreator": {
+      "address": "0x515d7e214b1ebebd2e2899de1ad11098dccd0de3",
+      "blockNumber": 44201837,
+      "runtime": {
+        "bytes": 692,
+        "sha256": "f3038035d3be9738b2e834eb2f6fa3b9cf584392cb5503bb69a914625520892e"
+      }
+    }
+  }
+}

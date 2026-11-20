@@ -1,0 +1,7 @@
+{
+  "name": "bitget-logic-local-differential",
+  "private": true,
+  "type": "commonjs",
+  "scripts": { "test": "node differential.cjs" },
+  "devDependencies": { "ethers": "6.15.0", "solc": "0.8.28" }
+}

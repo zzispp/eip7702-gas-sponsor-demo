@@ -60,3 +60,7 @@ node authhash.mjs   # 手算 7702 授权哈希，并与 viem 对照
 `SponsoredBatch` 用 ERC-7201 风格的命名空间槽存放 nonce，盐字符串是 `demo.sponsoredbatch`。这只是本地演示用的域名盐，用来降低以后换委托实现时的 storage 冲突，不是对外服务的域名，也不绑定任何账户。
 
 若你改了这个字符串，`verify.sh` 里用于计算槽位的 `cast keccak demo.sponsoredbatch` 需要一起改。
+
+## Bitget Wallet 7702 Logic 行为复现
+
+[`bitget-logic-repro/`](bitget-logic-repro/out/README.md) 是 Bitget Wallet 7702 Logic v0.0.3（Base `0x490aac77c960b0569c8e446ac7e12490bd44ca1d`）的行为复现，不是官方源码。目录中包含链上字节码归档。差分测试使用本地 mock Admin 与 EntryPoint fixture，不是 Bitget 的真实签名服务。

@@ -1,0 +1,146 @@
+{
+  "types": {
+    "t_bool": {
+      "label": "bool",
+      "encoding": "inplace",
+      "numberOfBytes": "1"
+    },
+    "t_uint32": {
+      "label": "uint32",
+      "encoding": "inplace",
+      "numberOfBytes": "4"
+    },
+    "t_uint48": {
+      "label": "uint48",
+      "encoding": "inplace",
+      "numberOfBytes": "6"
+    },
+    "t_address": {
+      "label": "address",
+      "encoding": "inplace",
+      "numberOfBytes": "20"
+    },
+    "t_uint112": {
+      "label": "uint112",
+      "encoding": "inplace",
+      "numberOfBytes": "14"
+    },
+    "t_uint192": {
+      "label": "uint192",
+      "encoding": "inplace",
+      "numberOfBytes": "24"
+    },
+    "t_uint256": {
+      "label": "uint256",
+      "encoding": "inplace",
+      "numberOfBytes": "32"
+    },
+    "t_string_storage": {
+      "label": "string",
+      "encoding": "bytes",
+      "numberOfBytes": "32"
+    },
+    "t_mapping(t_uint192,t_uint256)": {
+      "key": "t_uint192",
+      "label": "mapping(uint192 => uint256)",
+      "value": "t_uint256",
+      "encoding": "mapping",
+      "numberOfBytes": "32"
+    },
+    "t_struct(DepositInfo)8886_storage": {
+      "label": "struct IStakeManager.DepositInfo",
+      "members": [
+        {
+          "slot": "0",
+          "type": "t_uint256",
+          "astId": 8877,
+          "label": "deposit",
+          "offset": 0,
+          "contract": "contracts/core/EntryPoint.sol:EntryPoint"
+        },
+        {
+          "slot": "1",
+          "type": "t_bool",
+          "astId": 8879,
+          "label": "staked",
+          "offset": 0,
+          "contract": "contracts/core/EntryPoint.sol:EntryPoint"
+        },
+        {
+          "slot": "1",
+          "type": "t_uint112",
+          "astId": 8881,
+          "label": "stake",
+          "offset": 1,
+          "contract": "contracts/core/EntryPoint.sol:EntryPoint"
+        },
+        {
+          "slot": "1",
+          "type": "t_uint32",
+          "astId": 8883,
+          "label": "unstakeDelaySec",
+          "offset": 15,
+          "contract": "contracts/core/EntryPoint.sol:EntryPoint"
+        },
+        {
+          "slot": "1",
+          "type": "t_uint48",
+          "astId": 8885,
+          "label": "withdrawTime",
+          "offset": 19,
+          "contract": "contracts/core/EntryPoint.sol:EntryPoint"
+        }
+      ],
+      "encoding": "inplace",
+      "numberOfBytes": "64"
+    },
+    "t_mapping(t_address,t_mapping(t_uint192,t_uint256))": {
+      "key": "t_address",
+      "label": "mapping(address => mapping(uint192 => uint256))",
+      "value": "t_mapping(t_uint192,t_uint256)",
+      "encoding": "mapping",
+      "numberOfBytes": "32"
+    },
+    "t_mapping(t_address,t_struct(DepositInfo)8886_storage)": {
+      "key": "t_address",
+      "label": "mapping(address => struct IStakeManager.DepositInfo)",
+      "value": "t_struct(DepositInfo)8886_storage",
+      "encoding": "mapping",
+      "numberOfBytes": "32"
+    }
+  },
+  "storage": [
+    {
+      "slot": "0",
+      "type": "t_mapping(t_address,t_struct(DepositInfo)8886_storage)",
+      "astId": 7734,
+      "label": "deposits",
+      "offset": 0,
+      "contract": "contracts/core/EntryPoint.sol:EntryPoint"
+    },
+    {
+      "slot": "1",
+      "type": "t_mapping(t_address,t_mapping(t_uint192,t_uint256))",
+      "astId": 7540,
+      "label": "nonceSequenceNumber",
+      "offset": 0,
+      "contract": "contracts/core/EntryPoint.sol:EntryPoint"
+    },
+    {
+      "slot": "2",
+      "type": "t_string_storage",
+      "astId": 1042,
+      "label": "_nameFallback",
+      "offset": 0,
+      "contract": "contracts/core/EntryPoint.sol:EntryPoint"
+    },
+    {
+      "slot": "3",
+      "type": "t_string_storage",
+      "astId": 1044,
+      "label": "_versionFallback",
+      "offset": 0,
+      "contract": "contracts/core/EntryPoint.sol:EntryPoint"
+    }
+  ]
+}

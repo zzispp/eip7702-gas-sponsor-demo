@@ -1,0 +1,77 @@
+{
+  "PayoutSafeProxy": {
+    "address": "0xdc6d85360827fcdb68d7db579bb7dfb6c8ec1c36",
+    "match": "match",
+    "matchId": "4284844",
+    "creationMatch": "match",
+    "runtimeMatch": "match",
+    "compilation": {
+      "language": "Solidity",
+      "compiler": "solc",
+      "compilerVersion": "0.7.6+commit.7338295f",
+      "compilerSettings": {
+        "metadata": {
+          "bytecodeHash": "ipfs"
+        },
+        "libraries": {},
+        "optimizer": {
+          "runs": 200,
+          "enabled": false
+        },
+        "evmVersion": "istanbul",
+        "remappings": []
+      },
+      "name": "GnosisSafeProxy",
+      "fullyQualifiedName": "GnosisSafeProxy.sol:GnosisSafeProxy"
+    },
+    "deployment": {
+      "transactionHash": "0xefaacefde4de27d6e2aa8d27c8be8c9c2e2e7b6f643ec8614d5b5cd58bee2fb6",
+      "blockNumber": "3040191",
+      "transactionIndex": "7",
+      "deployer": "0xA52Bb0BEBfadEDA9DfFFa3Ba5eBFE86d9f6dB321"
+    },
+    "creationInput": {
+      "bytes": 518,
+      "sha256": "cf946e81416dd87bfe49119e719cf7b2afa4906b969bf6d6023eb035bce670e6"
+    },
+    "sourceCount": 1
+  },
+  "PayoutSafeSingleton": {
+    "address": "0xfb1bffc9d739b8d520daf37df666da4c687191ea",
+    "match": "exact_match",
+    "matchId": "35021",
+    "creationMatch": "exact_match",
+    "runtimeMatch": "exact_match",
+    "compilation": {
+      "language": "Solidity",
+      "compiler": "solc",
+      "compilerVersion": "0.7.6+commit.7338295f",
+      "compilerSettings": {
+        "metadata": {
+          "bytecodeHash": "ipfs",
+          "useLiteralContent": true
+        },
+        "libraries": {},
+        "optimizer": {
+          "runs": 200,
+          "enabled": false
+        },
+        "evmVersion": "istanbul",
+        "remappings": []
+      },
+      "name": "GnosisSafeL2",
+      "fullyQualifiedName": "contracts/GnosisSafeL2.sol:GnosisSafeL2"
+    },
+    "deployment": {
+      "transactionHash": "0x2719a2962da8f300267be24059c5aff678690add3a997ba0008405cd3d8af8e0",
+      "blockNumber": "595207",
+      "transactionIndex": "1",
+      "deployer": "0x1083a997A822fED50aaaF785f95e2726440069E4"
+    },
+    "creationInput": {
+      "bytes": 23841,
+      "sha256": "871937da4bd404c94377861abad3ab194163f57cd9a5e9b374a615c176c22c03"
+    },
+    "sourceCount": 43
+  }
+}
