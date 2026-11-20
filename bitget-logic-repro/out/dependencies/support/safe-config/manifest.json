@@ -1,0 +1,56 @@
+{
+  "address": "0xdc6d85360827fcdb68d7db579bb7dfb6c8ec1c36",
+  "snapshot": {
+    "number": 59828121,
+    "hash": "0x3ec6b825d98bff535499513f421ab8081f0506ddd3792ff59fbfac1930eb4b2b",
+    "stateRoot": "0xe28c392518ab1b10879876742d654688ce159937d9cd8be3a31b33192fc86a20"
+  },
+  "fallbackSlot": "0x6c9a6c4a39284e37ed1cf53d337577d14212a4870fb976a4366c693b939918d5",
+  "guardSlot": "0x4a204f620c8c5ccdca3fd54d003badd85ba500436a431f0cbda4f558c93c34c8",
+  "fallbackWord": "0x000000000000000000000000017062a1de2fe6b99be3d9d37841fed19f573804",
+  "guardWord": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "modulesGetter": "0xcc2f845200000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000032",
+  "modules": "0x000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000",
+  "moduleCount": 0,
+  "next": "0x0000000000000000000000000000000000000001",
+  "fallbackHandler": {
+    "address": "0x017062a1de2fe6b99be3d9d37841fed19f573804",
+    "runtime": {
+      "bytes": 5492,
+      "sha256": "eec6894136b0ea9a5dabd2d1873e5bf079569176f0f540b5543484877b0f90f4"
+    },
+    "verified": {
+      "matchId": "5625494",
+      "compilation": {
+        "language": "Solidity",
+        "compiler": "solc",
+        "compilerVersion": "0.7.6+commit.7338295f",
+        "compilerSettings": {
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "useLiteralContent": true
+          },
+          "libraries": {},
+          "optimizer": {
+            "runs": 200,
+            "enabled": false
+          },
+          "evmVersion": "istanbul",
+          "remappings": []
+        },
+        "name": "CompatibilityFallbackHandler",
+        "fullyQualifiedName": "contracts/handler/CompatibilityFallbackHandler.sol:CompatibilityFallbackHandler"
+      },
+      "deployment": {
+        "transactionHash": "0xdc2f53256e4d1b0f8e1ffc7dce3ed84aad2cab9647039f26829524f4be5ac32e",
+        "blockNumber": "595189",
+        "transactionIndex": "1",
+        "deployer": "0x1083a997A822fED50aaaF785f95e2726440069E4"
+      },
+      "creationInput": {
+        "bytes": 5524,
+        "sha256": "35ad59af322976e3487d2befe78fa2025d5dc5337b39dbaa49eeaace2d251d2b"
+      }
+    }
+  }
+}

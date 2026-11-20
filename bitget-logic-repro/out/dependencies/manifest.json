@@ -1,0 +1,181 @@
+{
+  "chainId": 8453,
+  "snapshot": {
+    "number": 59828121,
+    "hash": "0x3ec6b825d98bff535499513f421ab8081f0506ddd3792ff59fbfac1930eb4b2b",
+    "stateRoot": "0xe28c392518ab1b10879876742d654688ce159937d9cd8be3a31b33192fc86a20"
+  },
+  "contracts": {
+    "Logic": {
+      "address": "0x490aac77c960b0569c8e446ac7e12490bd44ca1d",
+      "runtime": {
+        "bytes": 2725,
+        "sha256": "4ad11d6a434f311ef4e2a21f13e377622d786711fcbb1f67613ce1ec357e677c"
+      }
+    },
+    "Admin": {
+      "address": "0x696ada227454bd0bf38e8605ab7bacc02a293605",
+      "runtime": {
+        "bytes": 6369,
+        "sha256": "d984d119a7d64718f224f54aef57b9eaf117f9382a83337b30eda753a170acf0"
+      }
+    },
+    "EntryPoint": {
+      "address": "0x4337084d9e255ff0702461cf8895ce9e3b5ff108",
+      "runtime": {
+        "bytes": 21738,
+        "sha256": "e5c27a628d8338475ff45a12d116f0c36df5eebc3a08a4263c1dcf042e92020f"
+      }
+    },
+    "SenderCreator": {
+      "address": "0x449ed7c3e6fee6a97311d4b55475df59c44add33",
+      "runtime": {
+        "bytes": 1217,
+        "sha256": "4253552d353bd532137870381f031921723b1dd68980f0c4995067930addeb32"
+      }
+    }
+  },
+  "admin": {
+    "txHash": "0xbbcb0958b56bfcbb15e8b9aeea82351899f77b23ac4d9ceee66a25cf245b0de7",
+    "immediateCreatorBaseScan": "0x291034d4a73bbfced19544d3104a99b00d521609",
+    "txFrom": "0x892afe25be91699b45c8bd618504aca4cb815ac0",
+    "txTo": "0xd7061474ed50293dba338eb9a3781a97cbc1b34e",
+    "blockNumber": 44201836,
+    "blockHash": "0x2770e7f14d5a8df4408bd83f8f405f30848c51ca77839299616981ff5849203d",
+    "snapshotNonce": "0x1",
+    "creationInput": {
+      "bytes": 7931,
+      "sha256": "dce3da3b2096e88e001f4d3e7ab4d121171cc078afaa4de09af43c6b776df3ae"
+    },
+    "outerCalldata": {
+      "bytes": 8036,
+      "sha256": "3a2a7306892a0e43189a25002139b502c79b40b293e3f3364d6d06de97848906"
+    },
+    "outerSelector": "0x4af63f02",
+    "outerSalt": "0x637ed13ef9e41ffbd81d69575e1eda92e7c601b9d596f8653ef7cfc494ce69e7",
+    "creationByteOffset": 100
+  },
+  "entryPoint": {
+    "matchId": "6293500",
+    "verifiedAt": "2025-04-18T09:28:21Z",
+    "compilation": {
+      "language": "Solidity",
+      "compiler": "solc",
+      "compilerVersion": "0.8.28+commit.7893614a",
+      "compilerSettings": {
+        "viaIR": true,
+        "metadata": {
+          "bytecodeHash": "ipfs"
+        },
+        "libraries": {},
+        "optimizer": {
+          "runs": 1000000,
+          "enabled": true
+        },
+        "evmVersion": "cancun",
+        "remappings": []
+      },
+      "name": "EntryPoint",
+      "fullyQualifiedName": "contracts/core/EntryPoint.sol:EntryPoint"
+    },
+    "txHash": "0xd7987f40e2a7b2301327971e1ae8ce1b6f466a590b3f41ba9e78feac56d02aba",
+    "txFrom": "0x81ead4918134ae386dbd04346216e20ab8f822c4",
+    "txTo": "0x4e59b44847b379578588920ca78fbf26c0b4956c",
+    "blockNumber": 27767215,
+    "blockHash": "0x2e7962812ae1a2c1b011a39978aaf918f4e87f7d5c693fa0d8879dfaebce5615",
+    "snapshotNonce": "0x2",
+    "creationInput": {
+      "bytes": 24175,
+      "sha256": "143e73b797efcaecc4c7530007ce247e2984fc8a8a8342a065bceea648290dc4"
+    },
+    "outerCalldata": {
+      "bytes": 24207,
+      "sha256": "7e8e119d27cf58900e04f65083615a478dc71c3c94d2971700f215a65b8b3911"
+    },
+    "outerCalldataPrefix": "0x0a59dbff790c23c976a548690c27297883cc66b4c67024f9117b0238995e35e9",
+    "runtimeTransformations": [
+      {
+        "id": "1026",
+        "type": "replace",
+        "offset": 13585,
+        "reason": "immutable"
+      },
+      {
+        "id": "1028",
+        "type": "replace",
+        "offset": 13774,
+        "reason": "immutable"
+      },
+      {
+        "id": "1030",
+        "type": "replace",
+        "offset": 13538,
+        "reason": "immutable"
+      },
+      {
+        "id": "1032",
+        "type": "replace",
+        "offset": 13664,
+        "reason": "immutable"
+      },
+      {
+        "id": "1034",
+        "type": "replace",
+        "offset": 13702,
+        "reason": "immutable"
+      },
+      {
+        "id": "1037",
+        "type": "replace",
+        "offset": 6276,
+        "reason": "immutable"
+      },
+      {
+        "id": "1040",
+        "type": "replace",
+        "offset": 6317,
+        "reason": "immutable"
+      },
+      {
+        "id": "5055",
+        "type": "replace",
+        "offset": 5838,
+        "reason": "immutable"
+      },
+      {
+        "id": "5055",
+        "type": "replace",
+        "offset": 8360,
+        "reason": "immutable"
+      },
+      {
+        "id": "5055",
+        "type": "replace",
+        "offset": 20577,
+        "reason": "immutable"
+      },
+      {
+        "id": "5055",
+        "type": "replace",
+        "offset": 21388,
+        "reason": "immutable"
+      }
+    ],
+    "runtimeTransformationValues": {
+      "immutables": {
+        "1026": "0x32d3d9470df728b0d14d164308641c85a39d325b72281e775cc8d113c59a1201",
+        "1028": "0x0000000000000000000000000000000000000000000000000000000000002105",
+        "1030": "0x0000000000000000000000004337084d9e255ff0702461cf8895ce9e3b5ff108",
+        "1032": "0x364da28a5c92bcc87fe97c8813a6c6b8a3a049b0ea0a328fcb0b4f0e00337586",
+        "1034": "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6",
+        "1037": "0x4552433433333700000000000000000000000000000000000000000000000007",
+        "1040": "0x3100000000000000000000000000000000000000000000000000000000000001",
+        "5055": "0x000000000000000000000000449ed7c3e6fee6a97311d4b55475df59c44add33"
+      }
+    }
+  },
+  "senderCreator": {
+    "getter": "0x09ccb880",
+    "snapshotNonce": "0x1"
+  }
+}
